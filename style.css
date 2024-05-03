@@ -1,0 +1,111 @@
+body{
+    background: url(a.jpj.jpg);}
+.head{
+    background: rgba(85, 4, 246, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 3px 3px 7px black;
+}
+.log{
+    width: 50%;
+    height: fit-content;
+    background: rgba(243, 195, 4, 0.4);;
+    margin: auto;
+    border: 5px solid orangered;
+    font-size: x-large;    
+}
+input{
+    width: 95%;
+    height: 20px;
+    margin: 10px;
+
+}
+.select{
+    width: 95%;
+    height: 20px;
+    margin: 10px;
+}
+input[type=submit]{
+    width: 40%;
+    background-color: cadetblue;
+    font-size: x-large;
+    height: fit-content;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+input[type=reset]{
+    width: 40%;
+    background-color: red;
+    font-size: x-large;
+    height: fit-content;
+    border: 0px;
+    color: white;
+    border-radius: 20px;
+}
+.nav{
+   color: chartreuse;
+    background: #000;
+    size: 20px;
+    padding: 10px;
+    }
+.nav>a{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3PX solid white;
+}
+#logout{
+    float: right;
+    margin-left: 50px;
+    color: red;
+    background-color: azure;
+    padding-right: 20px;
+}
+#user{
+    position: fixed;
+    right: 0%;
+    border:2px double rgb(241, 234, 234);
+    float: right;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgb(4, 32, 57);
+}
+h4{
+    text-shadow: 3px 3px 7px black;
+    color: rgb(255, 251, 0);
+}
+a:hover{
+    color: antiquewhite;
+    font-size: x-large;
+    background-color: blue;
+}
+
+.left{
+    float: left;  
+    width: 30%;
+}
+.right{
+    float: left;  
+    width: 65%; 
+    border: 2px;
+}
+table{
+    margin-top: 10px;
+    width: 90%;
+    border: 2px solid black;
+    margin: auto;
+}
+table, td{
+    border-collapse: collapse;
+    border: 2px solid;
+
+}
+th{
+    background-color: gray;
+}
